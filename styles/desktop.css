@@ -1,0 +1,20 @@
+body {
+}
+
+.wrapper {
+ width: 730px;
+ margin: auto;
+}
+
+.top-section-features {
+	background-image: url(/images/image-computer.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	width: calc(100% - 32px);
+	height: 575px;
+
+}
+
+.top-section-features h3, p {
+	text-align: left;
+}
