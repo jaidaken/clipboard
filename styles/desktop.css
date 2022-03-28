@@ -1,18 +1,100 @@
-
 .wrapper {
- width: 730px;
- margin: auto;
+  width: 730px;
+  margin: auto;
 }
 
 .top-section-features {
-	background-image: url(/images/image-computer.png);
-	background-position: left;
-	background-repeat: no-repeat;
-	width: calc(100% - 32px);
-	height: 575px;
-
+  background-image: url(/images/image-computer.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: unset;
+  height: 575px;
+  width: 400px;
+  padding-left: 800px;
+  padding-top: 0;
+  margin-left: -400px;
+  margin-top: 80px;
+  margin-bottom: 150px;
 }
 
-.top-section-features h3, p {
-	text-align: left;
+.top-section-features h3 {
+  text-align: left;
+}
+
+.top-section-features p {
+  text-align: left;
+}
+
+.supercharge-items {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 350px;
+  margin-left: -160px;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  gap: calc(4vw - 10px);
+  justify-content: center;
+  margin-left: -0;
+}
+
+.top-buttons {
+  flex-direction: row;
+  width: 470px;
+  margin: auto;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 150px;
+}
+.bottom-buttons {
+  flex-direction: row;
+  width: 470px;
+  margin: auto;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.ios-download:hover,
+.mac-download:hover {
+  opacity: 0.7;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 0;
+}
+
+.bottom-nav {
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-position: left;
+  text-align: left;
+  align-items: center;
+  padding-left: 120px;
+  padding-top: 50px;
+  height: 150px;
+  width: 100vw;
+  margin-left: 40px;
+  margin-bottom: 0;
+}
+
+.bottom-nav a {
+  width: 200px;
+}
+
+.bottom-nav a:hover {
+  color: #26bba4;
+}
+
+.social {
+  margin-right: 40px;
+  margin-top: 60px;
 }

@@ -90,6 +90,15 @@ a:hover {
   margin-bottom: 110px;
 }
 
+.top-section-features {
+  background-image: url(/images/image-computer.png);
+  background-repeat: no-repeat;
+  padding-top: 400px;
+  background-position: top;
+  background-size: 100%;
+  margin-top: 50px;
+}
+
 .top-section-features p {
   margin-bottom: 48px;
 }
