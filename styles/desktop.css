@@ -3,6 +3,9 @@
   margin: auto;
 }
 
+body {
+	background-image: url(/images/bg-header-desktop.png);
+}
 .top-section-features {
   background-image: url(/images/image-computer.png);
   background-position: left;
@@ -58,11 +61,6 @@
   margin: auto;
   align-items: flex-start;
   gap: 30px;
-}
-
-.ios-download:hover,
-.mac-download:hover {
-  opacity: 0.7;
 }
 
 footer {
